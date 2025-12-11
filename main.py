@@ -16,7 +16,7 @@ def read_data(filename):
     """
     i = 0
     liste = []
-    with open(filename, mode='r', encoding='utf8') as filename:
+    with open(filename, mode='r', encoding='utf8') as f:
         f = filename.readlines()
     for l in f :
         l = l.split(';')
